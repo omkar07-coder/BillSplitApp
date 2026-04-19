@@ -42,3 +42,6 @@ test-groq-api.js
 # generated native folders
 /ios
 /android
+
+.vercel
+.env*.local
