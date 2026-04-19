@@ -4,8 +4,16 @@
   "outputDirectory": "web-build",
   "routes": [
     {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "src": "/_expo/static/(.*)",
+      "dest": "/_expo/static/$1"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/favicon.ico"
     },
     {
       "src": "/(.*)",
